@@ -1,0 +1,1 @@
+CREATE POLICY "Receivers mark read" ON public.messages FOR UPDATE USING (auth.uid() = receiver_id) WITH CHECK (auth.uid() = receiver_id);

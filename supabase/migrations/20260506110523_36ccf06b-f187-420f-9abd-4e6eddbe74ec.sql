@@ -1,0 +1,1 @@
+UPDATE public.referral_slots SET total_slots = 5, slots_remaining = 5 WHERE id = 'faa165bb-59a3-4cec-afd2-e8a75030e259';
